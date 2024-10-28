@@ -24,6 +24,8 @@ public class Sesion34VelascoED_pilas {
                 pilaVelasco.push(10);
                 pilaVelasco.push(160);
                 JOptionPane.showMessageDialog(null, "Datos en pila ordenada es: \n"+pilaVelasco);
+                
+                JOptionPane.showMessageDialog(null, "Autor: Alan Velasco");
     }
     
 }
