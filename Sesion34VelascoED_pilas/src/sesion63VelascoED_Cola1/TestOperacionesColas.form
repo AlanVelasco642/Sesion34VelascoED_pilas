@@ -24,7 +24,7 @@
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="1" attributes="0">
-              <EmptySpace pref="119" max="32767" attributes="0"/>
+              <EmptySpace pref="114" max="32767" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Component id="btnImprimirEDCola" min="-2" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
@@ -33,7 +33,7 @@
                           <EmptySpace min="-2" pref="107" max="-2" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="1" attributes="0">
-                          <Component id="btnElementosAgregarEDCola" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnRealizarColaElementosEDCola" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="98" max="-2" attributes="0"/>
                       </Group>
                   </Group>
@@ -47,7 +47,7 @@
               <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
               <Component id="lblTitulo" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
-              <Component id="btnElementosAgregarEDCola" min="-2" max="-2" attributes="0"/>
+              <Component id="btnRealizarColaElementosEDCola" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
               <Component id="btnImprimirEDCola" min="-2" max="-2" attributes="0"/>
               <EmptySpace pref="118" max="32767" attributes="0"/>
@@ -61,18 +61,21 @@
         <Property name="text" type="java.lang.String" value="Operaciones ED Colas Velasco"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="btnElementosAgregarEDCola">
+    <Component class="javax.swing.JButton" name="btnRealizarColaElementosEDCola">
       <Properties>
-        <Property name="text" type="java.lang.String" value="A&#xf1;adir Elementos en ED Cola"/>
+        <Property name="text" type="java.lang.String" value="Realizar Cola Elementos en ED"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnElementosAgregarEDColaActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnRealizarColaElementosEDColaActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JButton" name="btnImprimirEDCola">
       <Properties>
         <Property name="text" type="java.lang.String" value="Imprimir Elementos en ED Cola"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnImprimirEDColaActionPerformed"/>
+      </Events>
     </Component>
   </SubComponents>
 </Form>
